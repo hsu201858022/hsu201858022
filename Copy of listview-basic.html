@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>jQuery Mobile</title>
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	</head>
+	<body>
+		<div data-role="page" id="page1" data-title="첫번째 페이지">
+			<div data-role="header">
+				<a href="#page2" class="ui-btn-right">트와일라잇</a>
+				<h1>트와일라잇 시리즈</h1>
+			</div>
+			<img src="트와일라잇 표지.jpg">
+			<div data-role="content">
+				<ul data-role="listview" data-inset="true">
+					<li data-role="listdivider">
+						메뉴 제목
+					</li>
+					<li>
+						<a href="#page2">트와일라잇</a>
+					</li>
+					<li>
+						<a href="#page3">트와일라잇 뉴문</a>
+					</li>
+					<li>
+						<a href="#page4">트와일라잇 이클립스</a>
+					</li>
+					<li>
+						<a href="#page5">트와일라잇 브레이킹 던 1</a>
+					</li>
+					<li>
+						<a href="#page6">트와일라잇 브레이킹 던 2</a>
+					</li>
+				</ul>
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<a href="#page1">트와일라잇 시리즈 메뉴</a>
+				<a href="#page2">트와일라잇</a>
+				<a href="#page3">트와일라잇 뉴문</a>
+				<a href="#page4">트와일라잇 이클립스</a>
+				<a href="#page5">트와일라잇 브레이킹 던 1</a>
+				<a href="#page6">트와일라잇 브레이킹 던 2</a>
+			</div>
+		</div>
+
+		<div data-role="page" id="page2" data-title="두번째 페이지">
+			<div data-role="header" data-add-back-btn="false">
+				<h1>트와일라잇</h1>
+				<a href="#page1" class="ui-btn-left">홈</a>
+				<a href="#page3" data-icon="home" class="ui-btn-right">트와일라잇 뉴문</a>
+			</div>
+			<div data-role="content">
+				<ul data-role="listview">
+					<li data-role="list-divider">
+						트와일라잇
+						<p class="ui-li-aside">
+							2008/11/21
+						</p>
+					</li>
+					<li>
+						<a href="#page7"> <img src="트와일라잇.jpg"> <h3>트와일라잇</h3>
+						<p>
+							등급: 12세관람가
+						</p>
+						<p>
+							상영시간: 95분
+						</p> </a>
+					</li>
+			</div>
+			</ul>
+			<div data-role="footer" data-position="fixed">
+				<a href="#page1">트와일라잇 시리즈 메뉴</a>
+				<a href="#page2">트와일라잇</a>
+				<a href="#page3">트와일라잇 뉴문</a>
+				<a href="#page4">트와일라잇 이클립스</a>
+				<a href="#page5">트와일라잇 브레이킹 던 1</a>
+				<a href="#page6">트와일라잇 브레이킹 던 2</a>
+			</div>
+		</div>
+
+		</div>
+		</div>
+		<div data-role="page" id="page3" data-title="세번째 페이지">
+			<div data-role="header" data-add-back-btn="true">
+				<h1>트와일라잇 뉴문</h1>
+				<a href="#page2" data-icon="home" class="ui-btn-left">트와일라잇</a>
+				<a href="#page4" data-icon="home" class="ui-btn-right">트와일라잇 이클립스</a>
+			</div>
+			<div data-role="content">
+				<ul data-role="listview">
+					<li data-role="list-divider">
+						트와일라잇 뉴문
+						<p class="ui-li-aside">
+							2009/11/20
+						</p>
+					</li>
+					<li>
+						<a href="#page8"> <img src="트와일라잇 뉴문.png"> <h3>트와일라잇 뉴문</h3>
+							<p>
+							등급: 12세관람가
+						</p>
+						<p>
+							상영시간: 130분
+						</p> </a> 
+					</li>
+
+				</ul>
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<a href="#page1">트와일라잇 시리즈 메뉴</a>
+				<a href="#page2">트와일라잇</a>
+				<a href="#page3">트와일라잇 뉴문</a>
+				<a href="#page4">트와일라잇 이클립스</a>
+				<a href="#page5">트와일라잇 브레이킹 던 1</a>
+				<a href="#page6">트와일라잇 브레이킹 던 2</a>
+			</div>
+		</div>
+		<div data-role="page" id="page4" data-title="네번째 페이지">
+			<div data-role="header" data-add-back-btn="true">
+				<h1>트와일라잇 이클립스</h1>
+				<a href="#page3" data-icon="home" class="ui-btn-left">트와일라잇 뉴문</a>
+				<a href="#page5" data-icon="home" class="ui-btn-right">트와일라잇 브레이킹 던 1</a>
+
+			</div>
+
+			<div data-role="content">
+				<ul data-role="listview">
+					<li data-role="list-divider">
+						트와일라잇 이클립스
+						<p class="ui-li-aside">
+							2010/06/30
+						</p>
+					</li>
+					<li>
+						<a href="#page9"> <img src="트와일라잇 이클립스.jpg"> <h3>트와일라잇 이클립스</h3> 
+							<p>
+							등급: 12세관람가
+						</p>
+						<p>
+							상영시간: 124분
+						</p> </a>
+					</li>
+
+				</ul>
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<a href="#page1">트와일라잇 시리즈 메뉴</a>
+				<a href="#page2">트와일라잇</a>
+				<a href="#page3">트와일라잇 뉴문</a>
+				<a href="#page4">트와일라잇 이클립스</a>
+				<a href="#page5">트와일라잇 브레이킹 던 1</a>
+				<a href="#page6">트와일라잇 브레이킹 던 2</a>
+			</div>
+		</div>
+		<div data-role="page" id="page5" data-title="다섯번째 페이지">
+			<div data-role="header" data-add-back-btn="true">
+				<h1>트와일라잇 브레이킹 던 1</h1>
+				<a href="#page4" data-icon="home" class="ui-btn-left">트와일라잇 이클립스</a>
+				<a href="#page6" data-icon="home" class="ui-btn-right">트와일라잇 브레이킹 던 2</a>
+			</div>
+			<div data-role="content">
+				<ul data-role="listview">
+					<li data-role="list-divider">
+						트와일라잇 브레이킹 던1
+						<p class="ui-li-aside">
+							2011/11/18
+						</p>
+					</li>
+					<li>
+						<a href="#page10"> <img src="트와일라잇 브레이킹 던 1.png"> <h3>트와일라잇 브레이킹 던 1</h3> 
+							<p>
+							등급: 12세관람가
+						</p>
+						<p>
+							상영시간: 117분
+						</p> </a>
+					</li>
+
+				</ul>
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<a href="#page1">트와일라잇 시리즈 메뉴</a>
+				<a href="#page2">트와일라잇</a>
+				<a href="#page3">트와일라잇 뉴문</a>
+				<a href="#page4">트와일라잇 이클립스</a>
+				<a href="#page5">트와일라잇 브레이킹 던 1</a>
+				<a href="#page6">트와일라잇 브레이킹 던 2</a>
+			</div>
+		</div>
+		<div data-role="page" id="page6" data-title="여섯번째 페이지">
+			<div data-role="header" data-add-back-btn="true">
+				<h1>트와일라잇 브레이킹 던 2</h1>
+				<a href="#page5" data-icon="home" class="ui-btn-left">트와일라잇 브레이킹 던 1</a>
+				<a href="#page1" data-icon="home" class="ui-btn-right">홈</a>
+			</div>
+			<div data-role="content">
+				<ul data-role="listview">
+					<li data-role="list-divider">
+						트와일라잇 브레이킹 던2
+						<p class="ui-li-aside">
+							2012/11/16
+						</p>
+					</li>
+					<li>
+						<a href="#page11"> <img src="트와일라잇 브레이킹 던2.jpg"> <h3>트와일라잇 브레이킹 던 2</h3> 
+							<p>
+							등급: 12세관람가
+						</p>
+						<p>
+							상영시간: 115분
+						</p> </a>
+					</li>
+
+				</ul>
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<a href="#page1">트와일라잇 시리즈 메뉴</a>
+				<a href="#page2">트와일라잇</a>
+				<a href="#page3">트와일라잇 뉴문</a>
+				<a href="#page4">트와일라잇 이클립스</a>
+				<a href="#page5">트와일라잇 브레이킹 던 1</a>
+				<a href="#page6">트와일라잇 브레이킹 던 2</a>
+			</div>
+		</div>
+
+		<div data-role="page" id="page7" data-theme="b">
+			<div data-role="header" data-theme="b">
+				<a href="#page1" data-icon="arrow-l" data-direction="reverse">처음</a>
+				<h1>트와일라잇 소개</h1>
+			</div>
+			<div data-role="content">
+				<div data-role="collapsible">
+					<h3>등장인물</h3>
+					<p>
+						크리스틴 스튜어트(벨라),테일러 로트너(제이콥), 로버트 패틴슨(에드워드 컬렌), 안나 켄드릭(제시카), 다코다 패닝(제인), 애슐리 그린(앨리스 컬렌)...
+					</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>줄거리</h3>
+					<p>
+						17세의 평범한 고등학생 소녀 ‘벨라’는 집안 사정으로 워싱턴 주 포크스에 있는 아빠의 집으로 이사를 온다. 전학 첫날, ‘벨라’는 냉담하지만 자신을 무장 해제시킬 정도로 잘생긴 ‘에드워드’와 마주치고, 전율과 두려움 넘치는 인생의 전환을 맞이한다. ‘에드워드’와 돌이킬 수 없는 사랑에 빠져든 ‘벨라’. \하지만 ‘에드워드’와 그의 가족이 뱀파이어 일족이라는 사실을 알게 되고, 예기치 못한 운명에 빠져든다.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div data-role="page" id="page8" data-theme="b">
+			<div data-role="header" data-theme="b">
+				<a href="#page1" data-icon="arrow-l" data-direction="reverse">처음</a>
+				<h1>트와일라잇 뉴문 소개</h1>
+			</div>
+			<div data-role="content">
+				<div data-role="collapsible">
+					<h3>등장인물</h3>
+					<p>
+						크리스틴 스튜어트(벨라),테일러 로트너(제이콥), 로버트 패틴슨(에드워드 컬렌), 안나 켄드릭(제시카), 다코다 패닝(제인), 애슐리 그린(앨리스 컬렌)...
+					</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>줄거리</h3>
+					<p>
+						초능력을 가진 뱀파이어 에드워드는 인간 벨라가 자신 때문에 위험해지자 냉정하게 그녀를 떠난다. 이제 벨라를 지키는 것은 오랜 친구 제이콥. 하지만 제이콥은 뱀파이어와 적을 이루는 늑대인간 ‘퀼렛족’의 일원으로 벨라와 에드워드를 떼어놓고자 한다.
+						그러던 어느 날 벨라는 자신이 위험한 사고를 당할 때마다 에드워드의 환영이 보인다는 것을 알고 급기야 절벽에서 떨어지는 무모한 행동을 한다. 그리고 이 사건은 누구도 예상치 못할 결과를 초래하는데…
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div data-role="page" id="page9" data-theme="b">
+			<div data-role="header" data-theme="b">
+				<a href="#page1" data-icon="arrow-l" data-direction="reverse">처음</a>
+				<h1>트와일라잇 이클립스 소개</h1>
+			</div>
+			<div data-role="content">
+				<div data-role="collapsible">
+					<h3>등장인물</h3>
+					<p>
+						크리스틴 스튜어트(벨라),테일러 로트너(제이콥), 로버트 패틴슨(에드워드 컬렌), 안나 켄드릭(제시카), 다코다 패닝(제인), 애슐리 그린(앨리스 컬렌)...
+					</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>줄거리</h3>
+					<p>
+						불멸의 사랑을 위해 뱀파이어가 되기로 결심한 벨라. 제이콥은 벨라의 선택을 가로막으며 자신을택하도록 종용하고 이로 인해 에드워드와의 갈등은 더욱 심해진다. 한편 시애틀에서 의문의 연쇄살인사건이 일어나고 에드워드는 곧 이 사건의 배후를 알게 되지만 벨라에게는 비밀로 하는데…
+						신생 뱀파이어 군대. “뱀파이어가 된 것을 환영한다” 에드워드와 벨라가 소멸한 연인의 복수를 위해 빅토리아가 새롭게 창조한 뱀파이어 집단. 이들은 심한 갈증으로 인해 그 어떤 뱀파이어보다도 강하고 잔인하다. 그 중에서도 리더이자 최고의 초능력을 가진 라일리는 컬렌-퀼렛 연합군에게 가장 위협적인 존재.
+						컬렌가-퀼렛족 연합군. “목숨을 건 전쟁이 될 거다” 뱀파이어 에드워드의 컬렌가와 늑대인간 제이콥의 퀼렛족은 오래 전부터 서로를 노려온 적대관계. 벨라로 인해 더욱 갈등이 고조되지만 신생 뱀파이어들의 공격을 막기 위해 두 종족은 단호한 결단으로 연합군 결성을 이룬다.
+						볼투리 가. “우린 두 번의 기회는 주지 않아”뱀파이어 최고의 권력집단. 타인의 기억과 생각을 모두 읽고 고통을 주는 능력으로 모든 뱀파이어들이 가장 두려워하는 종족. 벨라를 뱀파이어로 만들겠다는 에드워드의 약속이 지켜지지 않자 컬렌가를 찾아온다.
+
+						제작노트 보기
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div data-role="page" id="page10" data-theme="b">
+			<div data-role="header" data-theme="b">
+				<a href="#page1" data-icon="arrow-l" data-direction="reverse">처음</a>
+				<h1>트와일라잇 브레이킹 던 1소개</h1>
+			</div>
+			<div data-role="content">
+				<div data-role="collapsible">
+					<h3>등장인물</h3>
+					<p>
+						크리스틴 스튜어트(벨라),테일러 로트너(제이콥), 로버트 패틴슨(에드워드 컬렌), 안나 켄드릭(제시카), 다코다 패닝(제인), 애슐리 그린(앨리스 컬렌)...
+					</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>줄거리</h3>
+					<p>
+						인간과 뱀파이어의 결합이 불러온 새로운 운명이 시작된다!
+						우여곡절 끝에 많은 이들의 축복 속에 뱀파이어 에드워드와 결혼식을 올린 벨라! 아직 마음을 정리하지 못한 제이콥을 뒤로 하고 허니문을 떠난 밸라와 에드워드는 세상에서 가장 아름답고 특별한 첫날 밤을 보내게 된다. 행복한 시간도 잠시, 예상치 못한 임신을 한 벨라. 아기는 하루가 다르게 놀라운 속도로 자라며 벨라의 생명을 위협한다.
+						새로운 생명의 탄생이 불러올 종족 간 최대의 위기!
+						시리즈 사상 가장 거대한 전쟁이 펼쳐진다!
+						한편 늑대인간 ‘퀼렛’족은 인간과 뱀파이어의 결합으로 생긴 아기가 후에 위험한 존재가 될 것이라고 판단, 임신한 벨라를 없애려 한다. 제이콥은 자신의 종족을 이탈해 뱀파이어 ‘컬렌’가와 함께 벨라를 지킨다. 그러나 벨라는 배 속에서 강력한 힘으로 빠르게 자라는 아기 때문에 목숨이 위태로운 상황에 놓이는데…!
+					</p>
+				</div>
+			</div>
+		</div>
+		<div data-role="page" id="page11" data-theme="b">
+			<div data-role="header" data-theme="b">
+				<a href="#page1" data-icon="arrow-l" data-direction="reverse">처음</a>
+				<h1>트와일라잇 브레이킹 던 2소개</h1>
+			</div>
+			<div data-role="content">
+				<div data-role="collapsible">
+					<h3>등장인물</h3>
+					<p>
+						크리스틴 스튜어트(벨라),테일러 로트너(제이콥), 로버트 패틴슨(에드워드 컬렌), 안나 켄드릭(제시카), 다코다 패닝(제인), 애슐리 그린(앨리스 컬렌)...
+					</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>줄거리</h3>
+					<p>
+						르네즈미를 잉태하면서 죽음의 순간까지 닿았던 벨라는
+						그녀를 살리기 위한 에드워드의 노력으로 마침내 뱀파이어로 다시 태어나고,
+						제이콥이 자신의 딸 르네즈미에게 ‘각인’되었다는 사실을 알고 충격에 빠진다.
+						한편 르네즈미를 뱀파이어에게 위험한 ‘불멸의 아이’라고 판단한 ‘볼투리’가는
+						그녀를 제거하기 위해 군대를 모으기 시작한다.
+						신이 허락하지 않은 인간과 뱀파이어의 사랑이 불러 온 위험천만한 전운이 ‘컬렌’가를 감돌고
+						벨라와 르네즈미를 지키기 위해 전세계에 흩어져 있는 뱀파이어들을 모은 에드워드는
+						볼투리의 군대와 최후의 전쟁을 시작하는데...
+						전세계가 열광하는 매혹적인 판타지
+						대서사의 화려한 피날레가 마침내 시작된다!
+					</p>
+				</div>
+			</div>
+		</div>
+
+		</div>
+	</body>
+</html>
