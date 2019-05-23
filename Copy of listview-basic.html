@@ -35,16 +35,14 @@
 					<li>
 						<a href="#page6">트와일라잇 브레이킹 던 2</a>
 					</li>
+					<li>
+						<a href="#wizard3-1" data-rel="dialog">트와일라잇 ost</a>
+					</li>
 				</ul>
 			</div>
-			<div data-role="footer" data-position="fixed">
-				<a href="#page1">트와일라잇 시리즈 메뉴</a>
-				<a href="#page2">트와일라잇</a>
-				<a href="#page3">트와일라잇 뉴문</a>
-				<a href="#page4">트와일라잇 이클립스</a>
-				<a href="#page5">트와일라잇 브레이킹 던 1</a>
-				<a href="#page6">트와일라잇 브레이킹 던 2</a>
-			</div>
+			<div data-role="footer" data-position="fixed" data-theme="a">
+			<h1><a href="minfo.html">만든이 <br>201858022 유선준</a></h1>
+		</div>	
 		</div>
 
 		<div data-role="page" id="page2" data-title="두번째 페이지">
@@ -349,6 +347,39 @@
 				</div>
 			</div>
 		</div>
+		<div data-role="page" id="wizard3-1">
+		<div data-role="header">
+			<h1>트와일라잇 ost1</h1>
+		</div>
+		<div data-role="content">
+			<div class="ui-bar ui-bar-e">A thousand years</div><br/>
+			<audio controls width="100%" preload="metadata">
+				<source src="Christina Perri - A Thousand Years [Official Music Video] (128  kbps).mp3" type="audio/mp3">
+			</audio>	
+			<img src="a thousand years.jpg" alt="" width="100%">
+		</div>
+		<div data-role="footer">
+			<a href="#page1"  data-direction="reverse">이전</a>
+			<a href="#wizard3-2" data-rel="dialog" data-transition="slide">다음</a>
+		</div>
+	</div>
+
+	<div data-role="page" id="wizard3-2">
+		<div data-role="header">
+			<h1>트와일라잇 ost2</h1>
+		</div>
+		<div data-role="content">
+			<div class="ui-bar ui-bar-e">Decode</div><br/>
+			<audio controls width="100%" preload="metadata">
+				<source src="Paramore_ Decode [OFFICIAL VIDEO] (128  kbps).mp3" type="audio/mp3">
+			</audio>			
+			<img src="decode.jpg" alt="" width="100%">
+		</div>
+		<div data-role="footer">
+			<a href="#wizard3-1"  data-direction="reverse">이전</a>
+			<a href="#page1">처음</a>
+		</div>
+	</div>
 
 		</div>
 	</body>
